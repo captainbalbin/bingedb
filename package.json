@@ -1,17 +1,22 @@
 {
-  "name": "bingedb",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/svelte": "^7.1.0",
-    "astro": "^5.8.1",
-    "svelte": "^5.33.10",
-    "typescript": "^5.8.3"
-  }
+	"name": "bingedb",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"lint": "biome check",
+		"lint:fix": "biome check --apply"
+	},
+	"dependencies": {
+		"@astrojs/svelte": "^7.1.0",
+		"astro": "^5.8.1",
+		"svelte": "^5.33.10",
+		"typescript": "^5.8.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
 }

@@ -1,6 +1,6 @@
 <!-- @format -->
 <script>
-  let message = "Hello from Test.svelte!";
+const message = "Hello from Test.svelte!";
 </script>
 
 <main>
